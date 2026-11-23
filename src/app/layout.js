@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Autenticacion Nest.js",
-  description: "Generado por Nicolas",
+  title: "Autenticacion - Next.js",
+  description: "Creado por Nicolas",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="es">
       <body>{children}</body>
     </html>
   );
